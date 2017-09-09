@@ -451,7 +451,7 @@ int main(int argc, const char * argv[])
 	memset(&aq, 0, sizeof(AQPlayerState));
 	
 	// Absolute path to music file
-	char audioFileName[] = "/Users/robbytong/Documents/Xcode/FoodTracker/FoodTracker/PlayingAudioExample/PlayingAudioExample/over_everything.aac";
+	char audioFileName[] = "/Users/robbytong/Documents/Xcode/PlayingAudioExample/PlayingAudioExample/over_everything.aac";
 	
 	AQPlayerState_Initialize(&aq, audioFileName);
 	
